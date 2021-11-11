@@ -418,7 +418,7 @@
                               <select id="model-name-version" class="au-select au-select--block model-name-version">
                                  <option value="0">Please select model name and version</option>
 
-                                  <option value="1">FPV"</option>
+                                  <option value="1">FPV</option>
 <option value="2">Goggles</option>   
 <option value="3">Inspire 1 V2.0</option>  
 <option value="4">Inspire 2</option> 
@@ -543,13 +543,17 @@
                                  <option value="6">Powered Lift</option>
                               </select>
                            </div>
-                           <br>
-                           <label class="au-label" for="text-input-block1">Drone weight (grams)</label>
-                           <span class="au-hint-text">
-                              Please enter your drone weight in grams. The weight of your drone includes fuel, accessories or attachments such as cameras or gimbals.
-                           </span>
-                           <input class="au-text-input au-text-input--block" name="text-input-block1" id="text-input-block1" type="text" value="">
-                        </div>
+                           </div>
+                         <div class="au-form-group">				
+<label class="au-label" for="select1block">Weight class</label>
+    <span class="au-hint-text">Please select your drone weight class. The weight of your drone includes fuel, accessories or attachments such as cameras or gimbals.</span>
+<select id="select1block" class="au-select au-select--block">
+    <option value="1">Please select weight class</option>
+   <option value="1">Less than 500g</option>
+  <option value="2">More than 500g but not more than 2kg</option>
+  <option value="3">More than 25kg but not more than 150kg</option>
+</select>
+                         </div>
                      </div>
                      <div id="dji-weight" class="au-callout" style="margin-bottom: 1 rem; display: none">
                      </div>
